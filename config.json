@@ -1,0 +1,26 @@
+{
+  "title": "Configuration",
+  "description": "Config form",
+  "type": "object",
+  "required": [
+    "locale",
+    "language"
+  ],
+  "properties": {
+    "locale": {
+      "type": "string",
+      "title": "Locale",
+      "default": "gb"
+    },
+    "language": {
+      "type": "string",
+      "title": "language",
+      "default": "en"
+    },
+    "zipCode": {
+      "type": "string",
+      "title": "ZIP Code",
+      "pattern": "^[a-z0-9-]+$"
+    }
+  }
+}
